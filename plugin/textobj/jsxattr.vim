@@ -36,10 +36,9 @@ let s:RE_ATTR_VALUE = '('
 let s:RE_ATTR_RHS = '(\=' . s:RE_ATTR_VALUE . ')?'
 
 " The final regex.
-let s:RE_ATTR_I = s:RE_ATTR_NAME . s:RE_ATTR_RHS
-let s:RE_ATTR_A = '\s+' . s:RE_ATTR_I
-let s:RE_ATTR_I = '\v' . s:RE_ATTR_I
-let s:RE_ATTR_A = '\v' . s:RE_ATTR_A
+let s:RE_ATTR = s:RE_ATTR_NAME . s:RE_ATTR_RHS
+let s:RE_ATTR_I = '\v' . s:RE_ATTR
+let s:RE_ATTR_A = '\v\s+' . s:RE_ATTR
 
 call textobj#user#plugin('jsxattr', {
 \   'attr-i': {
