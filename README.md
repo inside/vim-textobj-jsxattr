@@ -1,5 +1,7 @@
 # vim-textobj-jsxattr
 
+[![Build Status](https://travis-ci.org/inside/vim-textobj-jsxattr.svg?branch=master)](https://travis-ci.org/inside/vim-textobj-jsxattr)
+
 A vim text object for JSX attributes. Forked from
 [whatyouhide/vim-textobj-xmlattr](https://github.com/whatyouhide/vim-textobj-xmlattr)
 
