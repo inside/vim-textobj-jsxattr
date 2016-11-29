@@ -33,7 +33,7 @@ let s:RE_ATTR_VALUE = '('
       \. s:RE_BRACES . ')'
 
 " The right-hand side of an XML attr: an optional `=something` or `="str"`.
-let s:RE_ATTR_RHS = '\=' . s:RE_ATTR_VALUE . '+'
+let s:RE_ATTR_RHS = '(\=' . s:RE_ATTR_VALUE . ')?'
 
 " The final regex.
 let s:RE_ATTR_I = s:RE_ATTR_NAME . s:RE_ATTR_RHS
