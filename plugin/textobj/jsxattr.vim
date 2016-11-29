@@ -14,7 +14,13 @@ let s:RE_ATTR_NAME = '[a-zA-Z0-9\-_:@\.]+'
 let s:RE_DOUBLE_QUOTED_STR = '"[^"]*"'
 let s:RE_SINGLE_QUOTED_STR = "'[^']*'"
 
-" Something surrounded by braces
+" Something surrounded by braces.
+" This implementation is limited the one level of braces.
+" For example, this will not be matched:
+" attrName={{ foo: 42, bar: 43 }}
+" Recursive regex are not supported in vim so you can't do something like:
+" http://www.regular-expressions.info/recurse.html#balanced
+" \((?>[^()]|(?R))*\)
 let s:RE_BRACES = '\{[^{]*\}'
 
 " The value of an attribute:
