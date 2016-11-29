@@ -35,3 +35,11 @@ NeoBundle 'whatyouhide/vim-textobj-jsxattr'
 Plugin 'kana/vim-textobj-user'
 Plugin 'whatyouhide/vim-textobj-jsxattr'
 ```
+
+## License
+
+[![][wtfpl-logo]][wtfpl]
+
+
+[wtfpl]: http://www.wtfpl.net/
+[wtfpl-logo]: http://www.wtfpl.net/wp-content/uploads/2012/12/logo-220x1601.png
