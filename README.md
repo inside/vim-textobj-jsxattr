@@ -27,15 +27,15 @@ Notice the space before. This is because you selected `a` attribute. Hitting
 
 ``` viml
 " vim-plug
-Plug 'kana/vim-textobj-user' | Plug 'whatyouhide/vim-textobj-jsxattr'
+Plug 'kana/vim-textobj-user' | Plug 'inside/vim-textobj-jsxattr'
 
 " NeoBundle
 NeoBundle 'kana/vim-textobj-user'
-NeoBundle 'whatyouhide/vim-textobj-jsxattr'
+NeoBundle 'inside/vim-textobj-jsxattr'
 
 " Vundle
 Plugin 'kana/vim-textobj-user'
-Plugin 'whatyouhide/vim-textobj-jsxattr'
+Plugin 'inside/vim-textobj-jsxattr'
 ```
 
 ## License
