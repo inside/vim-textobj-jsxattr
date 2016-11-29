@@ -16,10 +16,10 @@ This is a JSX component, the pipe represents the cursor:
 />
 ```
 
-Hitting `vax` will visually select ` onChange={this.han|dleChange.bind(this, 'name')}`.
+Hitting `vax` will visually select ` onChange={this.handleChange.bind(this, 'name')}`.
 Notice the space before. This is because you selected `a` attribute. Hitting
 `vix` will visually select the inner attribute
-`onChange={this.han|dleChange.bind(this, 'name')}` without the space.
+`onChange={this.handleChange.bind(this, 'name')}` without the space.
 
 ## Installation
 
